@@ -1,3 +1,5 @@
+Link Mockups: https://www.figma.com/design/bUcEfr3RnaMfPhft33jWym/Color-wheel-palette-generator--Comunidad-?node-id=0-1&t=EaEhoCP00xovlLTs-1
+
 # 📚 Mi Biblioteca Personal
 
 Aplicación móvil nativa para Android desarrollada en Kotlin, orientada a la gestión de colecciones personales de lectura, control de inventario de ejemplares, préstamos con control de disponibilidad y sistema de reseñas con valoración.
