@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "757075807141",
+    "project_id": "mibibliotecapersonal-c4ad1",
+    "storage_bucket": "mibibliotecapersonal-c4ad1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:757075807141:android:509871388da7bfdddd364c",
+        "android_client_info": {
+          "package_name": "com.example.mibibliotecapersonal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCglsBaFTYeC3kgXpajwPIwLi7JkEodGSM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    android:padding="20dp">
+
+    <!-- Título -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buscar libros"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_primary"/>
+
+    <!-- Descripción -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="Encuentra tu próxima lectura"
+        android:textSize="14sp"
+        android:textColor="@color/text_secondary"/>
+
+    <!-- Buscador -->
+    <EditText
+        android:id="@+id/etBuscar"
+        android:textColor="#212121"
+        android:textColorHint="#55515C"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginTop="22dp"
+        android:hint="Título, autor o género"
+        android:paddingStart="14dp"
+        android:paddingEnd="14dp"
+        android:singleLine="true"
+        android:inputType="text"
+        android:imeOptions="actionSearch"
+        android:background="@android:drawable/edit_text"/>
+
+    <!-- Encabezado de resultados -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Resultados"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_primary"/>
+
+    <TextView
+        android:id="@+id/tvSinResultados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="16dp"
+        android:gravity="center"
+        android:text="🔎 No se encontraron resultados.\nIntenta con otro título, autor o género."
+        android:textColor="@color/text_secondary"
+        android:textSize="15sp"
+        android:visibility="gone" />
+
+    <!-- Libro 1 -->
+    <TextView
+        android:id="@+id/resultadoLibro1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:padding="18dp"
+        android:background="@color/white"
+        android:text="Harry Potter y la piedra filosofal\nJ. K. Rowling\n\nGénero: Fantasía"
+        android:textSize="15sp"
+        android:textColor="@color/text_primary"/>
+
+    <!-- Libro 2 -->
+    <TextView
+        android:id="@+id/resultadoLibro2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:padding="18dp"
+        android:background="@color/white"
+        android:text="El principito\nAntoine de Saint-Exupéry\n\nGénero: Fábula"
+        android:textSize="15sp"
+        android:textColor="@color/text_primary"/>
+
+    <!-- Libro 3 -->
+    <TextView
+        android:id="@+id/resultadoLibro3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:padding="18dp"
+        android:background="@color/white"
+        android:text="1984\nGeorge Orwell\n\nGénero: Distopía"
+        android:textSize="15sp"
+        android:textColor="@color/text_primary"/>
+
+</LinearLayout>

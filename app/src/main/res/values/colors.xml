@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_primary">#5E35B1</color>
+    <color name="purple_dark">#4527A0</color>
+    <color name="purple_light">#EDE7F6</color>
+
+    <color name="background">#F7F6FA</color>
+    <color name="white">#FFFFFF</color>
+    <color name="text_primary">#25212D</color>
+    <color name="text_secondary">#77717F</color>
+
+    <color name="success">#238653</color>
+    <color name="error">#C62828</color>
+    <color name="border">#E5E0EB</color>
+</resources>

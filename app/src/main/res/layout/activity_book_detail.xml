@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Botón regresar -->
+        <Button
+            android:id="@+id/btnVolver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/purple_light"
+            android:text="← Volver"
+            android:textAllCaps="false"
+            android:textColor="@color/purple_dark" />
+
+        <!-- Portada provisional -->
+        <TextView
+            android:id="@+id/tvPortada"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/purple_light"
+            android:gravity="center"
+            android:text="📚"
+            android:textSize="68sp" />
+
+        <!-- Título -->
+        <TextView
+            android:id="@+id/tvTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Título del libro"
+            android:textColor="@color/text_primary"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <!-- Autor -->
+        <TextView
+            android:id="@+id/tvAutor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="Autor del libro"
+            android:textColor="@color/text_secondary"
+            android:textSize="16sp" />
+
+        <!-- Tarjeta compacta de calificaciones -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="14dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvEstrellasLibro"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="☆☆☆☆☆"
+                    android:textColor="#F4B400"
+                    android:textSize="22sp" />
+
+                <TextView
+                    android:id="@+id/tvResumenResenas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Cargando opiniones…"
+                    android:textColor="@color/text_secondary"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnVerResenas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/purple_light"
+                android:text="Ver reseñas →"
+                android:textAllCaps="false"
+                android:textColor="@color/purple_dark"
+                android:textSize="13sp" />
+
+        </LinearLayout>
+
+        <!-- Género -->
+        <TextView
+            android:id="@+id/tvGenero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@color/purple_light"
+            android:padding="10dp"
+            android:text="Género"
+            android:textColor="@color/purple_dark"
+            android:textSize="14sp" />
+
+        <!-- Año -->
+        <TextView
+            android:id="@+id/tvAnio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Año de publicación:"
+            android:textColor="@color/text_secondary"
+            android:textSize="15sp" />
+
+        <!-- Sinopsis -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Sinopsis"
+            android:textColor="@color/text_primary"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvSinopsis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:lineSpacingExtra="4dp"
+            android:text="Descripción del libro."
+            android:textColor="@color/text_secondary"
+            android:textSize="16sp" />
+
+        <!-- Disponibilidad -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Disponibilidad"
+            android:textColor="@color/text_primary"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <!-- Tarjeta de disponibilidad -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/tvDisponibilidad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Disponible para préstamo"
+                android:textColor="@color/success"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvTotalEjemplares"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Ejemplares en total: 5"
+                android:textColor="@color/text_primary"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tvEjemplaresDisponibles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="Disponibles: 3"
+                android:textColor="@color/success"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tvEjemplaresPrestados"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="Prestados: 2"
+                android:textColor="@color/text_secondary"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tvFechaDisponibilidad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Disponibilidad estimada: No aplica"
+                android:textColor="@color/text_secondary"
+                android:textSize="14sp"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <!-- Aviso cuando no haya ejemplares -->
+        <Button
+            android:id="@+id/btnAvisarmeDisponibilidad"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="@color/purple_light"
+            android:text="Avisarme cuando esté disponible"
+            android:textAllCaps="false"
+            android:textColor="@color/purple_dark"
+            android:textSize="15sp"
+            android:visibility="gone" />
+
+        <!-- Solicitar préstamo -->
+        <Button
+            android:id="@+id/btnSolicitarPrestamo"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_marginTop="22dp"
+            android:backgroundTint="@color/purple_primary"
+            android:text="Solicitar préstamo"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <!-- Escribir reseña -->
+        <Button
+            android:id="@+id/btnEscribirResena"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/purple_light"
+            android:text="✍️ Escribir una reseña"
+            android:textAllCaps="false"
+            android:textColor="@color/purple_dark"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+</ScrollView>
