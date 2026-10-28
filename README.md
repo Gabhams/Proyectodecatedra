@@ -1,5 +1,20 @@
 Link Mockups: https://www.figma.com/design/bUcEfr3RnaMfPhft33jWym/Color-wheel-palette-generator--Comunidad-?node-id=0-1&t=EaEhoCP00xovlLTs-1
 
+# Integrantes del grupo
+
+1. **Aleshka Priscila Gamez Navidad**  
+   **Carnet:** GN252409
+
+2. **Gabriela Giselle Vásquez Rodriguez**  
+   **Carnet:** VR250295
+
+3. **Paola Matilde Orellana Castillo**  
+   **Carnet:** OC250609
+
+4. **Kleberson Rafael Mejia Perez**  
+   **Carnet:** MP202140
+
+
 # 📚 Mi Biblioteca Personal
 
 Aplicación móvil nativa para Android desarrollada en Kotlin, orientada a la gestión de colecciones personales de lectura, control de inventario de ejemplares, préstamos con control de disponibilidad y sistema de reseñas con valoración.
